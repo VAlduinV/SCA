@@ -77,7 +77,7 @@ DATABASES = {
 ### Ендпоінти
 
 #### Коти:
-- **GET /api/cats/**: Повертає список котів.
+- **GET /api/cats/**: повертає список котів.
   - **Приклад відповіді**:
     ```json
     [
@@ -97,7 +97,7 @@ DATABASES = {
         }
     ]
     ```
-- **POST /api/cats/**: Додає нового кота.
+- **POST /api/cats/**: додає нового кота.
   - **Тіло запиту**:
     ```json
     {
@@ -117,7 +117,7 @@ DATABASES = {
         "salary": 5000.00
     }
     ```
-- **PATCH /api/cats/{id}/**: Оновлює зарплату кота.
+- **PATCH /api/cats/{id}/**: оновлює зарплату кота.
   - **Тіло запиту**:
     ```json
     {
@@ -134,13 +134,13 @@ DATABASES = {
         "salary": 5500.00
     }
     ```
-- **DELETE /api/cats/{id}/**: Видаляє кота.
+- **DELETE /api/cats/{id}/**: видаляє кота.
 
 ---
 
 #### Місії:
-- **GET /api/missions/**: Повертає список місій.
-- **POST /api/missions/**: Створює місію разом із цілями.
+- **GET /api/missions/**: повертає список місій.
+- **POST /api/missions/**: створює місію разом із цілями.
   - **Тіло запиту**:
     ```json
     {
@@ -161,7 +161,7 @@ DATABASES = {
         ]
     }
     ```
-- **PATCH /api/missions/{id}/assign/**: Призначає місію коту.
+- **PATCH /api/missions/{id}/assign/**: призначає місію коту.
   - **Тіло запиту**:
     ```json
     {
@@ -178,7 +178,7 @@ DATABASES = {
 ---
 
 #### Цілі:
-- **PATCH /api/targets/{id}/notes/**: Оновлює нотатки для цілі.
+- **PATCH /api/targets/{id}/notes/**: оновлює нотатки для цілі.
   - **Тіло запиту**:
     ```json
     {
@@ -195,7 +195,7 @@ DATABASES = {
         "is_completed": false
     }
     ```
-- **PATCH /api/targets/{id}/complete/**: Позначає ціль як завершену.
+- **PATCH /api/targets/{id}/complete/**: позначає ціль як завершену.
   - **Приклад відповіді**:
     ```json
     {
