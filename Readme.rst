@@ -6,6 +6,13 @@ Spy Cat Agency Management System
 
 Проєкт створений на **Django** та використовує **PostgreSQL** для зберігання даних. Всі компоненти розгортаються за допомогою **Docker**.
 
+.. image:: image\Preview.png
+   :alt: Screenshot of the application
+   :align: center
+   :width: 600px
+
+
+
 ---------------------
 1. Налаштування .env
 ---------------------

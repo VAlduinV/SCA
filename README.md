@@ -3,6 +3,9 @@
 ## Огляд
 Це RESTful API для управління шпигунськими котами, їхніми місіями та цілями.
 
+![Screenshot of the Application](image/Preview.png)
+
+
 ## Технології
 - Django REST Framework
 - PostgreSQL
