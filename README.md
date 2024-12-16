@@ -202,4 +202,3 @@ DATABASES = {
         "detail": "Target Target 1 marked as completed"
     }
     ```
-    
