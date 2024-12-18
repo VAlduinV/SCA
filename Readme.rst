@@ -21,9 +21,9 @@ Spy Cat Agency Management System
 
 .. code-block:: plaintext
 
-    DB_NAME=spy_cat_agency       # Назва бази даних
-    DB_USER=catsecret            # Ім'я користувача бази даних
-    DB_PASSWORD=123456w          # Пароль користувача
+    DB_NAME=your_database        # Назва бази даних
+    DB_USER=your_user            # Ім'я користувача бази даних
+    DB_PASSWORD=your_password    # Пароль користувача
     DB_HOST=db                   # Хост (Docker-сервіс для PostgreSQL)
     DB_PORT=5432                 # Порт для підключення до бази даних
 
